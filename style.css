@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f24;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px; 
+    font-size: 16px;
+    border-bottom: 1px solid #FBFBFB;
+    transition: all 0.4s ease ;
+    color: #1f1f24;
+}
+a:hover,:focus {
+    color:#f53f4f;
+    border-bottom: 1px solid #f53f4f;  
+    outline: none;
+}
+header{
+    background-color: #FBFBFB;
+    height: 100px;
+}
+.fixed-width{
+    max-width: 1260px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100%;
+}
+#phone{
+    font-size: 25px; 
+    font-weight: bold;
+}
+button{
+    height: 45px;
+    width: 200px;
+    margin-left: 30px;
+    border: 1px solid #f53f4f;
+    color: #f53f4f;
+    background-color: #FBFBFB;
+    transition: all 0.5s ease;
+}
+button:hover {
+    transform: scale(1.1); 
+}
+#contacts-container{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+nav{
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.tahoma-enable{
+    font-family: 'Tahoma','Roboto', sans-serif;
+}
+.main-head{
+    height: 670px;
+    margin: 0;
+    padding: 0; 
+    background: #FBFBFB ;
+}
+.main-walp{
+    background: url('img/Dmitry Alekseev.png') no-repeat;
+    background-position: 100% 100%;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-text-box h1{
+    font-size: 80px;
+    margin: 0; 
+    padding-top: 200px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.main-content{
+    margin: 0;
+    padding: 0 0 50px;
+    font-size: 25px;
+    color: #8993ad;
+}
+.orange-button{
+    background-color: #ff4e2e;
+    color: white;
+    font-size: 18px;
+    width: 270px;
+    height: 60px;
+}
+.main-button{
+    margin: 0;
+    padding: 0;
+}
+.what-i-do{
+    height: 650px;
+    background-color: white;
+}
+.i-do h2{
+    font-size: 54px;
+    margin: 0 auto;
+    padding: 95px 0;
+    text-align: center;
+}
+.pictures-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-holder {
+    margin: 0;
+    padding: 0 10px 50px;
+    text-align: center;
+    transition: all 0.7s ease;
+    font-size: 20px;
+    color: #8993ad;
+    height: 100%;
+}
+.image-holder p{
+    margin-bottom:40px
+}
+.image-holder:hover {
+    color: #f9177f;
+}
+.what-button{
+    display: block;
+    margin: 0 auto; 
+}
+.example-i-do{
+    height: 860px;
+    background-color: #FBFBFB;
+}
+.example-i-do .image-holder img{
+    height: 290px;
+    width: 370px;
+    overflow: hidden;
+}
+.set-marg{
+    margin:40px auto 0;
+}
+.big-orange-section{
+    min-height: 365px;
+    background-color: #ff4e2e;
+    color: white;
+}
+.big-orange-section h3{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 40px 0 25px;
+    margin:45px 0 0; 
+    line-height: 130%;
+    letter-spacing: 0.5px;
+}
+.big-orange-section p{
+    font-size: 18px;
+    margin: 0;
+    padding-top: 20px;
+    line-height: 150%;
+}
+.orange-text-container{
+    float:right;
+    width: 90%;
+}
+.no-hidden{
+    color: #ff4e2e;
+}
+.contacts{
+    min-height: 260px;
+}
+.contacts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-section-container {
+    padding: 70px 0 0;
+    min-width: 30%;
+}
+.contacts-section-container a{
+    display: block;
+    width: 100%;
+    padding: 7px 0 7px;
+    font-size: 18px;
+    color: #8993ad;
+    border: none;
+}
+.contacts-section-container a:hover{
+    color:#f53f4f;
+}
+.line-cont ul{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+.line-cont ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.line-cont ul li p{
+    font-size: 25px;
+    margin: 0;
+    padding: 5px;
+}
+.line-cont ul li img{
+
+    padding: 0px 10px;
+}
+.line-cont button{
+    background-color: white;
+    width: 250px;
+    margin: 10px 0 15px 10px; 
+}
+.net{
+    transition: all 0.4s ease;
+}
+.net:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+footer{
+    background-color: #31293c;
+    height:80px;
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
