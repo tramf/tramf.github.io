@@ -333,6 +333,9 @@ footer{
     .main-head{
         height: 550px;
     }
+    .what-i-do p{
+        font-size: 13px;
+    }
     nav a{
         font-size: 13px;
     }
