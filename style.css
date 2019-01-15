@@ -7,7 +7,6 @@ html, body {
 }
 body{
     min-width: 640px;
-    overflow: ihidden;
 }
 a{
     text-decoration: none;
@@ -212,7 +211,6 @@ nav{
     padding: 5px;
 }
 .line-cont ul li img{
-
     padding: 0px 10px;
 }
 .line-cont button{
@@ -332,6 +330,9 @@ footer{
     }
 }
 @media (max-width: 880px) {
+    .main-head{
+        height: 550px;
+    }
     .big-orange-section p{
         font-size: 13px;
         margin: 0;
@@ -358,5 +359,35 @@ footer{
     .contacts-section-container {
         padding: 40px 0 0;
         min-width: 20%;
+    }
+    .main-text-box h1{
+        font-size: 50px;
+        margin: 0; 
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    @media (max-width: 650px){
+        nav{
+            display:none;
+        }
+    }
+
+    @media (max-width: 480px){
+        .contacts-container{
+            display: block;
+            text-align: center;
+        }
+        .line-cont ul {
+            text-align: center;
+        }
+        .contacts-section-container{
+            padding-top: 15px;
+        }
+        .main-text-box h1{
+            padding-top: 30px;
+        }
+        .main-head{
+            height: 500px;
+        }
     }
 }
