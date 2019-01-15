@@ -5,6 +5,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #1f1f24;
 }
+body{
+    min-width: 640px;
+    overflow: ihidden;
+}
 a{
     text-decoration: none;
     margin-right: 30px; 
@@ -146,7 +150,7 @@ nav{
     margin:40px auto 0;
 }
 .big-orange-section{
-    min-height: 365px;
+    height: 365px;
     background-color: #ff4e2e;
     color: white;
 }
@@ -234,3 +238,97 @@ footer{
     text-align: center;
 }
 
+
+@media (max-width: 1280px) {
+    .big-orange-section p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .big-orange-section h3{
+        font-size: 40px;
+        font-weight: bold;
+        padding: 20px 0 15px;
+        line-height: 120%;
+    }
+    .main-text-box h1{
+        font-size: 70px;
+    }    
+    .example-i-do .image-holder img{
+        transform: scale(0.85);
+    }
+    .image-holder{padding: 0 5px 20px;}   
+}
+
+@media (max-width: 1200px) {
+
+    .main-text-box h1{
+        font-size: 60px;
+    }  
+    .big-orange-section p{
+        font-size: 16px;
+        margin: 0;
+        padding-top: 20px;
+        line-height: 150%;
+    }
+    .big-orange-section h3{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px 0 15px;
+        margin:25px 0 0; 
+        line-height: 100%;
+    }
+    .big-orange-section{
+        height: 220px;
+    
+    .example-i-do .pictures-container{
+        display: block;
+    }
+     .example-i-do .image-holder img{
+        transform: scale(1.0);
+    }
+    .example-i-do{
+        min-height: 1600px;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    .main-text-box h1{
+        font-size: 60px;
+        padding-top: 10px;
+    }  
+    .main-walp{
+        background-position: 150% 50%;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .main-text-box h1{
+        font-size: 60px;
+        padding-top: 10px;
+    }  
+    .main-walp{
+        background-position: 150% 50%;
+    }
+    .big-orange-section h3{
+        font-size: 24px;
+        line-height: 110%;
+    }
+    #phone{
+        font-size: 18px; 
+    }
+    a{
+        margin-right: 15px;
+    }
+    button{
+        margin-left: 10px;
+        width: 150px;
+    }
+    .what-i-do p{
+        font-size: 16px;
+    }
+    .line-cont ul li p{
+        font-size: 18px;
+    }
+}
