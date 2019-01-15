@@ -333,6 +333,9 @@ footer{
     .main-head{
         height: 550px;
     }
+    nav a{
+        font-size: 13px;
+    }
     .big-orange-section p{
         font-size: 13px;
         margin: 0;
@@ -370,13 +373,17 @@ footer{
         nav{
             display:none;
         }
+        #contacts-container{
+
+            float: left;
+        }
+        .main-text-box h1{
+            margin-top: 0px;
+        }  
     }
 
     @media (max-width: 480px){
-        .contacts-container{
-            display: block;
-            text-align: center;
-        }
+
         .line-cont ul {
             text-align: center;
         }
