@@ -28,7 +28,6 @@ header{
 }
 .fixed-width{
     max-width: 1260px;
-    min-width: 800px;
     margin: 0 auto;
     padding: 0 30px;
     height: 100%;
@@ -330,5 +329,34 @@ footer{
     }
     .line-cont ul li p{
         font-size: 18px;
+    }
+}
+@media (max-width: 880px) {
+    .big-orange-section p{
+        font-size: 13px;
+        margin: 0;
+        padding-top: 10px;
+        line-height: 100%;
+    }
+    .big-orange-section h3{
+        font-size: 20px;
+        line-height: 110%;
+    }
+    .main-walp{
+        background-size: 50%;
+        background-position: 100% 100%;
+    }
+    .i-do h2{
+        font-size: 35px;
+    }
+    .line-cont button{
+        width: 190px;
+    }
+    .net{
+        transform: scale(0.7);
+    }
+    .contacts-section-container {
+        padding: 40px 0 0;
+        min-width: 20%;
     }
 }
